@@ -1,0 +1,8 @@
+{
+  "gf12/fixture.py": "32bc814566c93bffd7425b83ca1e62a8489fe397637f8b25f062cdc2be64e767",
+  "gf12/worker.py": "4d7c4010ccd6339ebeee998dc0ca9cac11d143df70713d60ccdf806fefe18ba0",
+  "gf12/ci.py": "94852437dd9e0fe82d20d0b7ec4d75fa93a41767f1cf2c242d5d18272e2cce23",
+  "gf12/SOURCE_CHECKS.json": "689e6d7841667171709d58c1f0fb1dda36a75d696e31112f3f17e074e660718b",
+  "GF12_PARITY_PILOT.md": "27fcddc75938bb5ff7f3c7fe0f427a0e2902f3d205c5be13e710177d0df991e2",
+  ".github/workflows/gf12-parity-pilot.yml": "c8c0667bf9f831b38b623c1337530ab66fe3838d89294b3a34bab81858d84daf"
+}
