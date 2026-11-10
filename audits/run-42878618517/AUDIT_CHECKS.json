@@ -1,0 +1,19 @@
+{
+  "audit": "PASS",
+  "source_hashes_matched": 7,
+  "backend_shots": 2816,
+  "official_shots": 1280,
+  "engine_shots": 1536,
+  "pilot_RSS_MiB": 44.17578125,
+  "pilot_cgroup_peak_MiB": 25.515625,
+  "aggregate_contained_CPU_seconds": 2.591784,
+  "pilot_cgroup_CPU_seconds": 0.614599,
+  "controller_wall_seconds": 37.90143013900001,
+  "pilot_worker_wall_seconds": 0.4344634299999939,
+  "pilot_container_wall_seconds": 0.783396133999986,
+  "paired_official_seconds": 0.00695521599999438,
+  "paired_engine_seconds": 0.0011355799999819283,
+  "zip_sha256": "ff62e66753bc267793727554dd8a50f8124601540af15cb4ea87cb94d0078706",
+  "receipt_sha256": "c1973c7999ef792766825efa16cbffe8a82a74f9514b8c02760151031cca90b9",
+  "no_simulator_execution_during_audit": true
+}
