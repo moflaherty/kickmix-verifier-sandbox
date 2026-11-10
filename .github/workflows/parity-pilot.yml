@@ -1,0 +1,27 @@
+name: Kickmix parity pilot (one manual run)
+'on':
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    if: github.repository == 'moflaherty/kickmix-verifier-sandbox' && !github.event.repository.private && github.run_number == 1 && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout this public toy repository only
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: One bounded containment and parity experiment
+        timeout-minutes: 2
+        run: |
+          timeout --signal=TERM --kill-after=2s 58s python3 -I -B harness/ci.py
+      - name: Preserve small receipts even after failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: parity-pilot-receipts
+          path: evidence/*.json
+          if-no-files-found: warn
+          retention-days: 1

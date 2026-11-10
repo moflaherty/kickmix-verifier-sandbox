@@ -1,0 +1,9 @@
+{
+  ".github/workflows/parity-pilot.yml": "33888279ffa5cbfe11637d53e336fae11300f29101f30d0f1dbbade586296a6d",
+  "FAST_VERIFIER_CI_PILOT.md": "d3b06de82cc4855ee28a2bcef4bb7f575b78ed836b3dfc1a940057d677d3fe91",
+  "LICENSE": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+  "NOTICE": "631d68578e37ef50f5759f2d2362e7ca46717a612f17e20c97d06afdc3322363",
+  "README.md": "f4f0e3631790ee41cd7736cdd3ffa13e6a88b11779e8bd91903c01915a6f6a46",
+  "harness/ci.py": "e8a18e90bd0b4891d38ebbd33c6d7168caadde4b3745b7dd059d53490b77b650",
+  "harness/worker.py": "d37332235ba9048f01500dfb6340774bb05e163e6bdde2410e756545ce04a3b8"
+}

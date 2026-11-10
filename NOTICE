@@ -1,0 +1,7 @@
+This synthetic microtest uses API comparison patterns documented by kickmix-engine.
+Upstream: https://github.com/manwithacat/kickmix-engine
+Revision: b455a8a6120b515219b49cd469f83a230cf4989f
+Author: James Barlow (manwithacat), 2026. License: Apache-2.0.
+The five-qubit fixture, containment controller and workflow are newly written
+for this public sandbox. They do not contain competition circuit inputs.
+Official Kickmix and NumPy wheels retain their original bundled license files.
