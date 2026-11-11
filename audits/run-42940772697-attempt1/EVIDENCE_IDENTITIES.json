@@ -1,0 +1,10 @@
+{
+  "origin": "first-attempt job logs and source-only mapping proof; original artifact inaccessible404",
+  "uploaded_artifact_id": 13820163391,
+  "uploaded_artifact_zip_sha256_reported_not_download_verified": "61c046d7a5a715f955f15b4cea94fc564f557622453baa82ad36066adfaeb36c",
+  "files": {
+    "LOG_RECOVERED_receipt.json": "748687cc216b414db21f6332c44d084478ce9286850e03221916c6c138a5aeaf",
+    "original-attempt1.log": "5b898379b580cb3a52d423167112f95da1a75bbcd52fb03cfdc06a67b521ab47",
+    "EXPECTED_MAP_PROOF.json": "c198b697b604aed28badfbc7f7ab2c04619f022a221d3d00ede2a4561cba5981"
+  }
+}

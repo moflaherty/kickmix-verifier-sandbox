@@ -1,0 +1,49 @@
+{
+  "status": "SOURCE_ONLY_PASS",
+  "native_executed": false,
+  "original_bits": 727,
+  "expected_compact_bits": 726,
+  "omitted": [
+    3
+  ],
+  "omitted_initial_one_shots": 51,
+  "HMR_outputs_preserved": 720,
+  "input_original_ids": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "input_compact_ids": [
+    0,
+    146,
+    292,
+    725,
+    147,
+    2
+  ],
+  "invalid_mapping_controls_rejected": 8,
+  "minimal_map": [
+    0,
+    2
+  ],
+  "fixture_source_check": {
+    "source_check": "PASS",
+    "monomial_pairs": 144,
+    "num_qubits": 85,
+    "num_bits": 727,
+    "static_CCX": 721,
+    "expected_executed_CCX_per_backend": 115240,
+    "expected_executed_HMR_per_backend": 115200,
+    "fixture_sha256": "bb9dd1c546c28f5fb7785046ff3187ebf1a6641759daf16e7b782c4eeb258e23",
+    "all_zero_and_one_transcript_checks": "PASS",
+    "all_one_controls": {
+      "wrong_product_shots": 40,
+      "wrong_dependency_shots": 40,
+      "missing_repair_phase_shots": 11,
+      "incomplete_cleanup_shots": 12
+    }
+  }
+}

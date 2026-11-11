@@ -1,0 +1,522 @@
+{
+  "status": "FAIL_CLOSED",
+  "pilot_executed": true,
+  "container_limits": {
+    "memory_bytes": 536870912,
+    "swap_bytes": 0,
+    "cpus": 1,
+    "aggregate_CPU_seconds": 30,
+    "wall_seconds": 60,
+    "pids": 16,
+    "writable_scratch_bytes": 16777216
+  },
+  "controls": [
+    {
+      "mode": "memory",
+      "returncode": 137,
+      "container_exit": 137,
+      "OOMKilled": true,
+      "stop_reason": null,
+      "wall_seconds": 0.4763003999999995,
+      "before": {
+        "memory.current": 0,
+        "memory.peak": 0,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 0,
+          "user_usec": 0,
+          "system_usec": 0,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 0,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 0
+        }
+      },
+      "after": {
+        "memory.current": 184320,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 311507,
+          "user_usec": 98159,
+          "system_usec": 213347,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 5,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 0
+        }
+      },
+      "sampled_peak_bytes": 536870912,
+      "stdout": "{\"control\": \"memory\", \"allocation_bytes\": 805306368}\n",
+      "stderr": "",
+      "child_reaped": true,
+      "all_cgroup_processes_reaped": true
+    },
+    {
+      "mode": "pids",
+      "returncode": 0,
+      "container_exit": 0,
+      "OOMKilled": false,
+      "stop_reason": null,
+      "wall_seconds": 0.3762160940000001,
+      "before": {
+        "memory.current": 184320,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 311507,
+          "user_usec": 98159,
+          "system_usec": 213347,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 5,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 0
+        }
+      },
+      "after": {
+        "memory.current": 483328,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 417782,
+          "user_usec": 181038,
+          "system_usec": 236743,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 8,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "sampled_peak_bytes": 536870912,
+      "stdout": "{\"control\": \"pids\", \"fork_denied\": true, \"thread_limit_detected\": true, \"threads_created\": 15}\n",
+      "stderr": "",
+      "child_reaped": true,
+      "all_cgroup_processes_reaped": true
+    },
+    {
+      "mode": "scratch",
+      "returncode": 0,
+      "container_exit": 0,
+      "OOMKilled": false,
+      "stop_reason": null,
+      "wall_seconds": 0.2771908580000044,
+      "before": {
+        "memory.current": 483328,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 417782,
+          "user_usec": 181038,
+          "system_usec": 236743,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 9,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "after": {
+        "memory.current": 532480,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 527587,
+          "user_usec": 263793,
+          "system_usec": 263793,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 11,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "sampled_peak_bytes": 536870912,
+      "stdout": "{\"control\": \"scratch\", \"scratch_limit_detected\": true}\n",
+      "stderr": "",
+      "child_reaped": true,
+      "all_cgroup_processes_reaped": true
+    },
+    {
+      "mode": "cpu",
+      "returncode": 137,
+      "container_exit": 137,
+      "OOMKilled": false,
+      "stop_reason": null,
+      "wall_seconds": 1.1280648130000017,
+      "before": {
+        "memory.current": 532480,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 527587,
+          "user_usec": 263793,
+          "system_usec": 263793,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 12,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "after": {
+        "memory.current": 577536,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 1530691,
+          "user_usec": 1247748,
+          "system_usec": 282942,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 23,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "sampled_peak_bytes": 536870912,
+      "stdout": "",
+      "stderr": "",
+      "child_reaped": true,
+      "all_cgroup_processes_reaped": true
+    },
+    {
+      "mode": "wall",
+      "returncode": 137,
+      "container_exit": 137,
+      "OOMKilled": false,
+      "stop_reason": "WALL_NEGATIVE_EXPECTED",
+      "wall_seconds": 0.7279995719999945,
+      "before": {
+        "memory.current": 577536,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 1530691,
+          "user_usec": 1247748,
+          "system_usec": 282942,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 23,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "after": {
+        "memory.current": 614400,
+        "memory.peak": 536870912,
+        "memory.events": {
+          "low": 0,
+          "high": 0,
+          "max": 38,
+          "oom": 1,
+          "oom_kill": 1,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpu.stat": {
+          "usage_usec": 1630867,
+          "user_usec": 1334527,
+          "system_usec": 296339,
+          "nice_usec": 0,
+          "core_sched.force_idle_usec": 0,
+          "nr_periods": 28,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "pids.current": 0,
+        "pids.events": {
+          "max": 1
+        }
+      },
+      "sampled_peak_bytes": 536870912,
+      "stdout": "",
+      "stderr": "",
+      "child_reaped": true,
+      "all_cgroup_processes_reaped": true
+    }
+  ],
+  "private_inputs": false,
+  "production_secrets": false,
+  "source_commit_engine": "b455a8a6120b515219b49cd469f83a230cf4989f",
+  "verified_source_sha256": {
+    "dependent/fixture.py": "1d3c7ca6e7541a41ab6fa0323dfe28a838e1b9773691092e6f9c5249ad29c5d3",
+    "dependent/worker.py": "704d0445c655c54fc919a2edbf2377711b1905e8cabc09bd9c85e903685d5dc2",
+    "dependent/ci.py": "b11797a234309a923b956adae172a2588018359e41ee2e67936346f95e439db1",
+    "dependent/SOURCE_CHECKS.json": "4d277e046a9fab23910f9591ad7792264450ef0c145c0bb6c81af8062343831c",
+    "DEPENDENT_GF12_PILOT.md": "f0d540fb67a474b4c7bc4db5443943d7a8bdd0a79a6c283bd4405b9ef2f01d22",
+    ".github/workflows/dependent-gf12-pilot.yml": "dbfd8fdca181b8134b5423e4712a3a685f3cf8e47d663b7a49b0d86c340fb0e9",
+    "dependent/CONTROLLER_DIFF.txt": "1a8c6af08cd5cb83edcfad07b90398ca38428dc9568ac9b3a792aea1df0a2e4d"
+  },
+  "image_tag": "python@sha256:3cd9086bdb30f7c9bc08a3fa621d9842e0d3f6f9291aeb4677e0547817c10b12",
+  "image_id": "sha256:3eb66c6a8a2399cdf305afe7f680ea1e3aad64e9a6684cd6e46baf6b8b701ec8",
+  "image_repo_digests": [
+    "python@sha256:3cd9086bdb30f7c9bc08a3fa621d9842e0d3f6f9291aeb4677e0547817c10b12"
+  ],
+  "workflow_commit": "a8a906131e986cee1b73fec7ca61d4322e592f32",
+  "verified_cgroup_limits": {
+    "memory.max": "536870912",
+    "memory.swap.max": "0",
+    "cpu.max": "100000 100000",
+    "pids.max": "16"
+  },
+  "containment": "PASS",
+  "verified_wheels": [
+    {
+      "package": "kickmix",
+      "version": "1.0.0",
+      "file": "kickmix-1.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "cc26abcd5efa5e72f373148d5cca2ffa43e158a724e94c213b97622f23c6241a",
+      "manifest_url": "https://pypi.org/pypi/kickmix/1.0.0/json"
+    },
+    {
+      "package": "numpy",
+      "version": "2.1.3",
+      "file": "numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "2312b2aa89e1f43ecea6da6ea9a810d06aae08321609d8dc0d0eda6d946a541b",
+      "manifest_url": "https://pypi.org/pypi/numpy/2.1.3/json"
+    },
+    {
+      "package": "kickmix-engine",
+      "version": "0.6.0",
+      "file": "kickmix_engine-0.6.0-cp312-abi3-manylinux_2_28_x86_64.whl",
+      "sha256": "76f02ccec00ab9782d6aaca0b9d179d2174dfea80db1fa625aa8369e0e11d178",
+      "source_commit": "b455a8a6120b515219b49cd469f83a230cf4989f"
+    }
+  ],
+  "pilot_container": {
+    "mode": "pilot",
+    "returncode": 1,
+    "container_exit": 1,
+    "OOMKilled": false,
+    "stop_reason": null,
+    "wall_seconds": 0.9773681570000008,
+    "before": {
+      "memory.current": 397312,
+      "memory.peak": 536870912,
+      "memory.events": {
+        "low": 0,
+        "high": 0,
+        "max": 38,
+        "oom": 1,
+        "oom_kill": 1,
+        "oom_group_kill": 0,
+        "sock_throttled": 0
+      },
+      "cpu.stat": {
+        "usage_usec": 1630867,
+        "user_usec": 1334527,
+        "system_usec": 296339,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 29,
+        "nr_throttled": 0,
+        "throttled_usec": 0,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "pids.current": 0,
+      "pids.events": {
+        "max": 1
+      }
+    },
+    "after": {
+      "memory.current": 774144,
+      "memory.peak": 536870912,
+      "memory.events": {
+        "low": 0,
+        "high": 0,
+        "max": 38,
+        "oom": 1,
+        "oom_kill": 1,
+        "oom_group_kill": 0,
+        "sock_throttled": 0
+      },
+      "cpu.stat": {
+        "usage_usec": 2031490,
+        "user_usec": 1706251,
+        "system_usec": 325238,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 34,
+        "nr_throttled": 0,
+        "throttled_usec": 0,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "pids.current": 0,
+      "pids.events": {
+        "max": 1
+      }
+    },
+    "sampled_peak_bytes": 536870912,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/code/worker.py\", line 74, in <module>\n    if sorted(int(x)for x in p.bit_map)!=list(range(c.num_bits)):raise RuntimeError('classical bit coverage')\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: classical bit coverage\n",
+    "child_reaped": true,
+    "all_cgroup_processes_reaped": true
+  },
+  "error": "RuntimeError: pilot child failed",
+  "final_cgroup": {
+    "memory.current": 774144,
+    "memory.peak": 536870912,
+    "memory.events": {
+      "low": 0,
+      "high": 0,
+      "max": 38,
+      "oom": 1,
+      "oom_kill": 1,
+      "oom_group_kill": 0,
+      "sock_throttled": 0
+    },
+    "cpu.stat": {
+      "usage_usec": 2031490,
+      "user_usec": 1706251,
+      "system_usec": 325238,
+      "nice_usec": 0,
+      "core_sched.force_idle_usec": 0,
+      "nr_periods": 34,
+      "nr_throttled": 0,
+      "throttled_usec": 0,
+      "nr_bursts": 0,
+      "burst_usec": 0
+    },
+    "pids.current": 0,
+    "pids.events": {
+      "max": 1
+    }
+  },
+  "cgroup_empty_before_cleanup": true,
+  "cleanup_complete": true,
+  "wall_seconds": 23.002512943000003
+}

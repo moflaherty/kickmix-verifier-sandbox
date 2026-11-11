@@ -1,0 +1,13 @@
+{
+  "dependent_v2/fixture.py": "1d3c7ca6e7541a41ab6fa0323dfe28a838e1b9773691092e6f9c5249ad29c5d3",
+  "dependent_v2/worker.py": "84f37ebfbd4533f955608564e2b680ffe44f69d21e209c56ec42010079b3b43b",
+  "dependent_v2/ci.py": "d5c37d0a22f0765a45c57620b8a42f620ea047a1afbf456d36a54729cc46bcf7",
+  "dependent_v2/classical_mapping.py": "4bed719a769ef591df127663b20bf102942408b539b6048cfebe7fb55f4b89a6",
+  "dependent_v2/mapping_source_tests.py": "e88c6839e9919ce2470443e3c0d688cc88d2d134e2c45da082296d665396f28b",
+  "dependent_v2/SOURCE_CHECKS.json": "06202f66a8ae25bde7edd8e26977ff99341acf366172c72ba5c524482195ea24",
+  "dependent_v2/EXPECTED_MAP.json": "8f70842a0815253de5ef736295d982e0826412c3f08464fff6a9cf135b424b26",
+  "dependent_v2/DIFF_worker.py.txt": "ab7ba934deaf114ba9f24318382c3c6c8aff97e0dfe47fbece11f729947a30c0",
+  "dependent_v2/DIFF_ci.py.txt": "8483225eb83a38b5871f8be6e2a1a97e5677feff6bed6c6b1483719dc509c83f",
+  "DEPENDENT_GF12_MAPPING_REVIEW.md": "dd3669e8de7ab29610c310089c778b9d7151084af3ad26458877f83f9b500d45",
+  ".github/workflows/dependent-gf12-v2.yml": "f1443716768eb4c970af2b0c29a4cf3f9c83a6d21bd9d6b41b64a37f66b49685"
+}
