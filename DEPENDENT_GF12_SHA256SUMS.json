@@ -1,0 +1,9 @@
+{
+  "dependent/fixture.py": "1d3c7ca6e7541a41ab6fa0323dfe28a838e1b9773691092e6f9c5249ad29c5d3",
+  "dependent/worker.py": "704d0445c655c54fc919a2edbf2377711b1905e8cabc09bd9c85e903685d5dc2",
+  "dependent/ci.py": "b11797a234309a923b956adae172a2588018359e41ee2e67936346f95e439db1",
+  "dependent/SOURCE_CHECKS.json": "4d277e046a9fab23910f9591ad7792264450ef0c145c0bb6c81af8062343831c",
+  "DEPENDENT_GF12_PILOT.md": "f0d540fb67a474b4c7bc4db5443943d7a8bdd0a79a6c283bd4405b9ef2f01d22",
+  ".github/workflows/dependent-gf12-pilot.yml": "dbfd8fdca181b8134b5423e4712a3a685f3cf8e47d663b7a49b0d86c340fb0e9",
+  "dependent/CONTROLLER_DIFF.txt": "1a8c6af08cd5cb83edcfad07b90398ca38428dc9568ac9b3a792aea1df0a2e4d"
+}

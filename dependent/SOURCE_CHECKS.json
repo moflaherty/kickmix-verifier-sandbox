@@ -1,0 +1,25 @@
+{
+  "source_check": "PASS",
+  "monomial_pairs": 144,
+  "num_qubits": 85,
+  "num_bits": 727,
+  "static_CCX": 721,
+  "expected_executed_CCX_per_backend": 115240,
+  "expected_executed_HMR_per_backend": 115200,
+  "fixture_sha256": "bb9dd1c546c28f5fb7785046ff3187ebf1a6641759daf16e7b782c4eeb258e23",
+  "all_zero_and_one_transcript_checks": "PASS",
+  "all_one_controls": {
+    "wrong_product_shots": 40,
+    "wrong_dependency_shots": 40,
+    "missing_repair_phase_shots": 11,
+    "incomplete_cleanup_shots": 12
+  },
+  "status": "SOURCE_ONLY_PASS_NATIVE_NOT_EXECUTED",
+  "old_manifests_unchanged": true,
+  "guard_resource_logic_unchanged": true,
+  "bootstrap_unchanged": true,
+  "manual_only": true,
+  "seed": 7,
+  "shots_per_backend": 256,
+  "total_backend_shots": 512
+}
