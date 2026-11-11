@@ -1,0 +1,29 @@
+[
+  {
+    "package": "kickmix",
+    "wheel_sha256": "cc26abcd5efa5e72f373148d5cca2ffa43e158a724e94c213b97622f23c6241a",
+    "wheel_bytes": 1106499,
+    "loaded_module_matches": [
+      {
+        "path": "kickmix.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "d965e0ad42e7e3a147d4b28d6971a517f772dd79795cfc364be2fe9ffe3a7b80"
+      }
+    ]
+  },
+  {
+    "package": "numpy",
+    "sha256": "2312b2aa89e1f43ecea6da6ea9a810d06aae08321609d8dc0d0eda6d946a541b",
+    "published_metadata_matched": true
+  },
+  {
+    "package": "kickmix-engine",
+    "wheel_sha256": "76f02ccec00ab9782d6aaca0b9d179d2174dfea80db1fa625aa8369e0e11d178",
+    "wheel_bytes": 643437,
+    "loaded_module_matches": [
+      {
+        "path": "kickmix_engine/_engine.abi3.so",
+        "sha256": "74e205f8120bbfdbf5b759b42c1f344c842ed8c543da127adecf4dad1cd7db5c"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "status": "SYNTHETIC_SERIES_CLOSED",
+  "verdict": "PASS_RESEARCH_SCOPE_ONLY",
+  "successful_runs": [
+    42878618517,
+    42920149301,
+    42946165082
+  ],
+  "failed_dependent_v1": {
+    "run": 42940772697,
+    "attempt": 1,
+    "scientific_shots": 0
+  },
+  "no_workflow_rerun_during_audit": true,
+  "no_new_scientific_execution": true,
+  "no_next_toy_authorized": true,
+  "official_verifier_authoritative": true,
+  "artifact": {
+    "id": 13822817686,
+    "bytes": 97359,
+    "sha256": "5f606464c3ccc85e40c1068fde58575a6d284510b6cb63c421580242a0619eb3",
+    "git_blob_sha1": "d4cf6c26ccb74b84e27acce8a0cbb8d0a4fca291"
+  },
+  "receipt": {
+    "bytes": 213836,
+    "sha256": "9f645f48397b8fe3c50e07c853de9e190862df62f5aa7fc9cecef0fc5ab3670d"
+  },
+  "next_step": "Source-only independent intake of pinned public mul_xor0 42CCX reference; no saving claimed; no execution authorization",
+  "candidate": {
+    "source_revision": "ba83a1cac7a82dcde29c28575b3c9838a109ba15",
+    "path": "src/dqi/pro_q2_897/exp/arithmetic/field.py",
+    "symbol": "mul_xor0",
+    "field_sha256": "c1b8b2ff583ffd5997856605c35d37f7116aa5811e52a3ce04a1ae7215d381c3",
+    "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "notice_sha256": "313486a6e43edb4e6e5a9f6a6673e36eeb3fcc1ca20e6fcbf678ddb1564bf815",
+    "launcher_sha256": "fee0c2406096ccc7d42267e7fb30d95b910262cd5e186081260a02d362dcc3c2",
+    "core_width": 36,
+    "CCX": 42,
+    "private_scratch": 0,
+    "competitive_reference_not_improvement": true,
+    "provenance_review_required": true
+  }
+}

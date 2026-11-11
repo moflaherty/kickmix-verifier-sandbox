@@ -1,0 +1,52 @@
+{
+  "verdict": "PASS",
+  "synthetic_series": "CLOSED",
+  "audit": "read-only raw-transcript replay; no native rerun",
+  "source_hashes_verified": 11,
+  "shots_per_backend": 256,
+  "total_shots": 512,
+  "original_bits": 727,
+  "compact_bits": 726,
+  "omitted": [
+    3
+  ],
+  "untouched_one_rows_preserved": 51,
+  "HMR_records": 720,
+  "HMR_executions_per_backend": 115200,
+  "basis_products_checked": 144,
+  "all_quantum_bits_checked": 43520,
+  "all_original_classical_bits_checked": 372224,
+  "engine_untouched_bit_observation": "b3 carried by source-proven identity, not native compact output",
+  "raw_state_bytes": 26016,
+  "raw_state_sha256": "750f68339dfa9f8cd01f0fb20ef477e7e4befc6e736686fe7f12534374114d88",
+  "native_compact_dump_sha256": "fefd8463155640f4ee816032dc91bb3fa8381ed49089dc123ee39a3c1ffb137c",
+  "stage_checks": [
+    "after_first",
+    "after_second",
+    "after_reverse_second",
+    "after_reverse_first"
+  ],
+  "relative_phase": "exact binary; all actual histories replayed",
+  "faults": {
+    "wrong_product": 40,
+    "wrong_dependency": 40,
+    "missing_phase": 5,
+    "incomplete_cleanup": 12
+  },
+  "counts": {
+    "PUSH_CONDITION": 1024,
+    "CCX": 115240,
+    "CX": 295200,
+    "HMR": 115200,
+    "CZ": 57996,
+    "POP_CONDITION": 1024,
+    "X": 40
+  },
+  "native_reaction_depth_agreement": 3,
+  "CPU_total_contained_seconds": 2.339718,
+  "CPU_pilot_contained_seconds": 0.575056,
+  "controller_wall_seconds": 23.444794470999994,
+  "worker_peak_RSS_MiB": 43.2421875,
+  "pilot_cgroup_peak_MiB": 24.25,
+  "cleanup_complete": true
+}
