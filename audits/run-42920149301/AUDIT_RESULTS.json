@@ -1,0 +1,43 @@
+{
+  "verdict": "PASS",
+  "audit_type": "read-only transcript replay; no simulator or workflow rerun",
+  "shots_per_backend": 256,
+  "total_backend_shots": 512,
+  "source_files_checked": 6,
+  "field_modulus": 4179,
+  "basis_products_checked": 144,
+  "all_quantum_bits_checked": 43520,
+  "all_classical_bits_checked": 371200,
+  "HMR_instruction_records_checked": 721,
+  "HMR_executions_per_backend": 77220,
+  "CCX_per_backend": 77184,
+  "complete_counts": {
+    "PUSH_CONDITION": 1024,
+    "CCX": 77184,
+    "CX": 196968,
+    "HMR": 77220,
+    "CZ": 38747,
+    "X": 36,
+    "POP_CONDITION": 1024
+  },
+  "reaction_depth_agreement_recorded": 1,
+  "primary_forward_and_inverse_transcript_stages": "PASS",
+  "phase_equation": "PASS",
+  "negative_controls": {
+    "wrong_product": 36,
+    "missing_phase": 19,
+    "dirty_target_value": 13,
+    "dirty_target_phase": 4
+  },
+  "raw_backend_sha256": "9ff90daf865bd5f310e78ff310f01c39cc5c23f6de0064419fc8ff2a49c3c663",
+  "raw_backend_bytes": 25952,
+  "resources": {
+    "total_contained_CPU_seconds": 2.344994,
+    "pilot_contained_CPU_seconds": 0.572318,
+    "controller_wall_seconds": 23.897456182,
+    "worker_wall_seconds": 0.42779315100000304,
+    "worker_peak_RSS_MiB": 43.6328125,
+    "pilot_cgroup_peak_MiB": 25.15625
+  },
+  "cleanup_complete": true
+}
